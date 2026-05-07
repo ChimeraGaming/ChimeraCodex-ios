@@ -1,0 +1,11 @@
+{
+  "chapters": [
+    {
+      "id": "demo-series-1",
+      "number": 1,
+      "title": "Chapter 1: Sample",
+      "pageCountHint": 3,
+      "releaseText": "Local test data"
+    }
+  ]
+}

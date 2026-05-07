@@ -1,0 +1,40 @@
+{
+  "formatVersion": 1,
+  "id": "pack.template.demo",
+  "name": "Template Demo Source",
+  "catalog": {
+    "url": "./catalog.json",
+    "itemsKeyPath": "titles",
+    "fields": {
+      "id": "id",
+      "name": "name",
+      "summary": "summary",
+      "latestChapterTitle": "latestChapterTitle",
+      "chapterCount": "estimatedChapterCount",
+      "genres": "genres",
+      "status": "status",
+      "cover": "cover"
+    }
+  },
+  "chapters": {
+    "urlTemplate": "./{mangaId}-chapters.json",
+    "itemsKeyPath": "chapters",
+    "fields": {
+      "id": "id",
+      "number": "number",
+      "title": "title",
+      "pageCount": "pageCountHint",
+      "releaseText": "releaseText"
+    }
+  },
+  "pages": {
+    "urlTemplate": "./{chapterId}-pages.json",
+    "itemsKeyPath": "pages",
+    "fields": {
+      "number": "pageNumber",
+      "imageURL": "imageURL",
+      "headline": "headline",
+      "bodyText": "bodyText"
+    }
+  }
+}

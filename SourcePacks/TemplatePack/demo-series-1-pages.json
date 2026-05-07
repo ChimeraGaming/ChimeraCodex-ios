@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "headline": "Page 1",
+      "bodyText": "This page came from a source pack file."
+    },
+    {
+      "pageNumber": 2,
+      "headline": "Page 2",
+      "bodyText": "Add imageURL if you want the reader to fetch a real page image."
+    },
+    {
+      "pageNumber": 3,
+      "headline": "Page 3",
+      "bodyText": "Without imageURL, ChimeraCodex will fall back to generated page art."
+    }
+  ]
+}

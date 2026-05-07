@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000000000000000000022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000020 /* UIKit.framework */; };
+		AA0000000000000000000023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000021 /* Foundation.framework */; };
+		AA0000000000000000000031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000030 /* main.m */; };
+		AA0000000000000000000034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000033 /* AppDelegate.m */; };
+		AA000000000000000000003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000003B /* Assets.xcassets */; };
+		AA0000000000000000000037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000036 /* LaunchScreen.storyboard */; };
+		AA0000000000000000000040 /* IRAppContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000039 /* IRAppContainer.m */; };
+		AA0000000000000000000043 /* IRManga.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000042 /* IRManga.m */; };
+		AA0000000000000000000046 /* IRChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000045 /* IRChapter.m */; };
+		AA0000000000000000000049 /* IRPage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000048 /* IRPage.m */; };
+		AA0000000000000000000053 /* IRStaticSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000052 /* IRStaticSource.m */; };
+		AA0000000000000000000056 /* IRLibraryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000055 /* IRLibraryStore.m */; };
+		AA0000000000000000000059 /* IRPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000058 /* IRPageRenderer.m */; };
+		AA0000000000000000000075 /* IRRemoteImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000077 /* IRRemoteImageCache.m */; };
+		AA0000000000000000000076 /* IRRemoteImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000079 /* IRRemoteImageLoader.m */; };
+		AA0000000000000000000088 /* IRReadingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000083 /* IRReadingProgress.m */; };
+		AA0000000000000000000089 /* IRReaderSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000085 /* IRReaderSettings.m */; };
+		AA0000000000000000000090 /* IRMangaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000087 /* IRMangaTableViewCell.m */; };
+		AA0000000000000000000093 /* IRSourceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000092 /* IRSourceRecord.m */; };
+		AA0000000000000000000096 /* IRJSONSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000095 /* IRJSONSource.m */; };
+		AA0000000000000000000099 /* IRSourceRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000098 /* IRSourceRegistry.m */; };
+		AA0000000000000000000102 /* IRSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000101 /* IRSourcesViewController.m */; };
+		AA0000000000000000000062 /* IRRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000061 /* IRRootTabBarController.m */; };
+		AA0000000000000000000065 /* IRCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000064 /* IRCatalogViewController.m */; };
+		AA0000000000000000000068 /* IRLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000067 /* IRLibraryViewController.m */; };
+		AA0000000000000000000071 /* IRMangaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000070 /* IRMangaDetailViewController.m */; };
+		AA0000000000000000000074 /* IRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000073 /* IRReaderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000019 /* ChimeraCodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChimeraCodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000020 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000021 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA0000000000000000000032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA0000000000000000000033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA0000000000000000000035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000036 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA000000000000000000003B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000038 /* IRAppContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppContainer.h; sourceTree = "<group>"; };
+		AA0000000000000000000039 /* IRAppContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAppContainer.m; sourceTree = "<group>"; };
+		AA0000000000000000000041 /* IRManga.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRManga.h; sourceTree = "<group>"; };
+		AA0000000000000000000042 /* IRManga.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRManga.m; sourceTree = "<group>"; };
+		AA0000000000000000000044 /* IRChapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRChapter.h; sourceTree = "<group>"; };
+		AA0000000000000000000045 /* IRChapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRChapter.m; sourceTree = "<group>"; };
+		AA0000000000000000000047 /* IRPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRPage.h; sourceTree = "<group>"; };
+		AA0000000000000000000048 /* IRPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRPage.m; sourceTree = "<group>"; };
+		AA0000000000000000000050 /* IRSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRSourceProtocol.h; sourceTree = "<group>"; };
+		AA0000000000000000000051 /* IRStaticSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRStaticSource.h; sourceTree = "<group>"; };
+		AA0000000000000000000052 /* IRStaticSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRStaticSource.m; sourceTree = "<group>"; };
+		AA0000000000000000000054 /* IRLibraryStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRLibraryStore.h; sourceTree = "<group>"; };
+		AA0000000000000000000055 /* IRLibraryStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRLibraryStore.m; sourceTree = "<group>"; };
+		AA0000000000000000000057 /* IRPageRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRPageRenderer.h; sourceTree = "<group>"; };
+		AA0000000000000000000058 /* IRPageRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRPageRenderer.m; sourceTree = "<group>"; };
+		AA0000000000000000000078 /* IRRemoteImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRRemoteImageLoader.h; sourceTree = "<group>"; };
+		AA0000000000000000000079 /* IRRemoteImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRRemoteImageLoader.m; sourceTree = "<group>"; };
+		AA0000000000000000000077 /* IRRemoteImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRRemoteImageCache.m; sourceTree = "<group>"; };
+		AA0000000000000000000080 /* IRRemoteImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRRemoteImageCache.h; sourceTree = "<group>"; };
+		AA0000000000000000000082 /* IRReadingProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRReadingProgress.h; sourceTree = "<group>"; };
+		AA0000000000000000000083 /* IRReadingProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRReadingProgress.m; sourceTree = "<group>"; };
+		AA0000000000000000000084 /* IRReaderSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRReaderSettings.h; sourceTree = "<group>"; };
+		AA0000000000000000000085 /* IRReaderSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRReaderSettings.m; sourceTree = "<group>"; };
+		AA0000000000000000000086 /* IRMangaTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRMangaTableViewCell.h; sourceTree = "<group>"; };
+		AA0000000000000000000087 /* IRMangaTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMangaTableViewCell.m; sourceTree = "<group>"; };
+		AA0000000000000000000091 /* IRSourceRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRSourceRecord.h; sourceTree = "<group>"; };
+		AA0000000000000000000092 /* IRSourceRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRSourceRecord.m; sourceTree = "<group>"; };
+		AA0000000000000000000094 /* IRJSONSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRJSONSource.h; sourceTree = "<group>"; };
+		AA0000000000000000000095 /* IRJSONSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRJSONSource.m; sourceTree = "<group>"; };
+		AA0000000000000000000097 /* IRSourceRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRSourceRegistry.h; sourceTree = "<group>"; };
+		AA0000000000000000000098 /* IRSourceRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRSourceRegistry.m; sourceTree = "<group>"; };
+		AA0000000000000000000100 /* IRSourcesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRSourcesViewController.h; sourceTree = "<group>"; };
+		AA0000000000000000000101 /* IRSourcesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRSourcesViewController.m; sourceTree = "<group>"; };
+		AA0000000000000000000060 /* IRRootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRRootTabBarController.h; sourceTree = "<group>"; };
+		AA0000000000000000000061 /* IRRootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRRootTabBarController.m; sourceTree = "<group>"; };
+		AA0000000000000000000063 /* IRCatalogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRCatalogViewController.h; sourceTree = "<group>"; };
+		AA0000000000000000000064 /* IRCatalogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRCatalogViewController.m; sourceTree = "<group>"; };
+		AA0000000000000000000066 /* IRLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRLibraryViewController.h; sourceTree = "<group>"; };
+		AA0000000000000000000067 /* IRLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRLibraryViewController.m; sourceTree = "<group>"; };
+		AA0000000000000000000069 /* IRMangaDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRMangaDetailViewController.h; sourceTree = "<group>"; };
+		AA0000000000000000000070 /* IRMangaDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMangaDetailViewController.m; sourceTree = "<group>"; };
+		AA0000000000000000000072 /* IRReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRReaderViewController.h; sourceTree = "<group>"; };
+		AA0000000000000000000073 /* IRReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRReaderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000023 /* Foundation.framework in Frameworks */,
+				AA0000000000000000000022 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000005 /* ChimeraCodex */,
+				AA0000000000000000000004 /* Frameworks */,
+				AA0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000019 /* ChimeraCodex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000021 /* Foundation.framework */,
+				AA0000000000000000000020 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000005 /* ChimeraCodex */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000032 /* AppDelegate.h */,
+				AA0000000000000000000033 /* AppDelegate.m */,
+				AA0000000000000000000030 /* main.m */,
+				AA0000000000000000000035 /* Info.plist */,
+				AA0000000000000000000036 /* LaunchScreen.storyboard */,
+				AA000000000000000000003B /* Assets.xcassets */,
+				AA0000000000000000000038 /* IRAppContainer.h */,
+				AA0000000000000000000039 /* IRAppContainer.m */,
+				AA0000000000000000000006 /* Models */,
+				AA0000000000000000000007 /* Services */,
+				AA0000000000000000000008 /* Controllers */,
+			);
+			path = ChimeraCodex;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000041 /* IRManga.h */,
+				AA0000000000000000000042 /* IRManga.m */,
+				AA0000000000000000000044 /* IRChapter.h */,
+				AA0000000000000000000045 /* IRChapter.m */,
+				AA0000000000000000000047 /* IRPage.h */,
+				AA0000000000000000000048 /* IRPage.m */,
+				AA0000000000000000000082 /* IRReadingProgress.h */,
+				AA0000000000000000000083 /* IRReadingProgress.m */,
+				AA0000000000000000000084 /* IRReaderSettings.h */,
+				AA0000000000000000000085 /* IRReaderSettings.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000050 /* IRSourceProtocol.h */,
+				AA0000000000000000000051 /* IRStaticSource.h */,
+				AA0000000000000000000052 /* IRStaticSource.m */,
+				AA0000000000000000000054 /* IRLibraryStore.h */,
+				AA0000000000000000000055 /* IRLibraryStore.m */,
+				AA0000000000000000000057 /* IRPageRenderer.h */,
+				AA0000000000000000000058 /* IRPageRenderer.m */,
+				AA0000000000000000000080 /* IRRemoteImageCache.h */,
+				AA0000000000000000000077 /* IRRemoteImageCache.m */,
+				AA0000000000000000000078 /* IRRemoteImageLoader.h */,
+				AA0000000000000000000079 /* IRRemoteImageLoader.m */,
+				AA0000000000000000000091 /* IRSourceRecord.h */,
+				AA0000000000000000000092 /* IRSourceRecord.m */,
+				AA0000000000000000000094 /* IRJSONSource.h */,
+				AA0000000000000000000095 /* IRJSONSource.m */,
+				AA0000000000000000000097 /* IRSourceRegistry.h */,
+				AA0000000000000000000098 /* IRSourceRegistry.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000008 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000060 /* IRRootTabBarController.h */,
+				AA0000000000000000000061 /* IRRootTabBarController.m */,
+				AA0000000000000000000063 /* IRCatalogViewController.h */,
+				AA0000000000000000000064 /* IRCatalogViewController.m */,
+				AA0000000000000000000066 /* IRLibraryViewController.h */,
+				AA0000000000000000000067 /* IRLibraryViewController.m */,
+				AA0000000000000000000069 /* IRMangaDetailViewController.h */,
+				AA0000000000000000000070 /* IRMangaDetailViewController.m */,
+				AA0000000000000000000072 /* IRReaderViewController.h */,
+				AA0000000000000000000073 /* IRReaderViewController.m */,
+				AA0000000000000000000086 /* IRMangaTableViewCell.h */,
+				AA0000000000000000000087 /* IRMangaTableViewCell.m */,
+				AA0000000000000000000100 /* IRSourcesViewController.h */,
+				AA0000000000000000000101 /* IRSourcesViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000009 /* ChimeraCodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000014 /* Build configuration list for PBXNativeTarget "ChimeraCodex" */;
+			buildPhases = (
+				AA0000000000000000000010 /* Sources */,
+				AA0000000000000000000011 /* Frameworks */,
+				AA0000000000000000000012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChimeraCodex;
+			productName = ChimeraCodex;
+			productReference = AA0000000000000000000019 /* ChimeraCodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AA0000000000000000000009 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000013 /* Build configuration list for PBXProject "ChimeraCodex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000002;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000009 /* ChimeraCodex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000000000000000000003A /* Assets.xcassets in Resources */,
+				AA0000000000000000000037 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000031 /* main.m in Sources */,
+				AA0000000000000000000034 /* AppDelegate.m in Sources */,
+				AA0000000000000000000040 /* IRAppContainer.m in Sources */,
+				AA0000000000000000000043 /* IRManga.m in Sources */,
+				AA0000000000000000000046 /* IRChapter.m in Sources */,
+				AA0000000000000000000049 /* IRPage.m in Sources */,
+				AA0000000000000000000088 /* IRReadingProgress.m in Sources */,
+				AA0000000000000000000089 /* IRReaderSettings.m in Sources */,
+				AA0000000000000000000053 /* IRStaticSource.m in Sources */,
+				AA0000000000000000000056 /* IRLibraryStore.m in Sources */,
+				AA0000000000000000000059 /* IRPageRenderer.m in Sources */,
+				AA0000000000000000000075 /* IRRemoteImageCache.m in Sources */,
+				AA0000000000000000000076 /* IRRemoteImageLoader.m in Sources */,
+				AA0000000000000000000093 /* IRSourceRecord.m in Sources */,
+				AA0000000000000000000096 /* IRJSONSource.m in Sources */,
+				AA0000000000000000000099 /* IRSourceRegistry.m in Sources */,
+				AA0000000000000000000062 /* IRRootTabBarController.m in Sources */,
+				AA0000000000000000000065 /* IRCatalogViewController.m in Sources */,
+				AA0000000000000000000068 /* IRLibraryViewController.m in Sources */,
+				AA0000000000000000000071 /* IRMangaDetailViewController.m in Sources */,
+				AA0000000000000000000074 /* IRReaderViewController.m in Sources */,
+				AA0000000000000000000090 /* IRMangaTableViewCell.m in Sources */,
+				AA0000000000000000000102 /* IRSourcesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AA0000000000000000000017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ChimeraCodex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChimeraCodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ChimeraCodex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChimeraCodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000013 /* Build configuration list for PBXProject "ChimeraCodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000015 /* Debug */,
+				AA0000000000000000000016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000014 /* Build configuration list for PBXNativeTarget "ChimeraCodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000017 /* Debug */,
+				AA0000000000000000000018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+  "titles": [
+    {
+      "id": "demo-series",
+      "name": "Demo Series",
+      "summary": "Replace this local test data with your own JSON endpoint once the field mapping is working.",
+      "latestChapterTitle": "Chapter 1: Sample",
+      "estimatedChapterCount": 1,
+      "genres": [
+        "Demo",
+        "Template"
+      ],
+      "status": "ongoing"
+    }
+  ]
+}
